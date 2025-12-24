@@ -24,7 +24,7 @@ const AdminLayout = () => {
         </div>
 
         {/* Page Content */}
-        <main className="flex-1 overflow-y-auto md:p-10 relative z-10">
+        <main className="flex-1 overflow-y-auto  relative z-10">
           <Outlet />
         </main>
 
