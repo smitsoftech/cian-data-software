@@ -184,9 +184,9 @@ const Dashboard = () => {
         </section>
         </div>
 
-        <div className="mt-4 flex gap-2 justify-end">
+        {/* <div className="mt-4 flex gap-2 justify-end">
           <ExportToImage elementId="dashboard-export" fileName="celesta-dashboard" />
-        </div>
+        </div> */}
       </main>
 
       {/* Subtle Background Pattern */}

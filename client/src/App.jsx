@@ -43,6 +43,7 @@ import Dashboard from "./pages/admin/Dashboard";
 import Products from "./pages/admin/Products";
 import Customers from "./pages/admin/UserList";
 import EditProduct from "./pages/admin/EditProduct";
+import FilterProducts from "./pages/admin/FilteredProducts";
 
 
 /* Manufacturer */
@@ -195,6 +196,15 @@ const MainContent = () => {
         <Route
           path="/admin/manufacturers/view/:id"
           element={<ViewManufacturer />}
+        />
+
+        <Route
+          path="/viewall/filteredproducts"
+          element={
+            <AdminProtectedRoute>
+              <FilterProducts />
+            </AdminProtectedRoute>
+          }
         />
 
         {/* Customers */}
